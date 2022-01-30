@@ -1,4 +1,4 @@
-@extends('blog.template.secion')
+@extends('blog.template.sesion')
 @section('Form')
 <div class="sidebar-heading">
     <h2>Registro "NO INGRESAR SU CONTRASEÑA REAL NO NOS HACEMOS RESPONSABLES"</h2>
