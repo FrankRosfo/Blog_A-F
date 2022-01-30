@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,13 +17,13 @@ use App\Http\Controllers\MailController;
 */
 Route::post('/mail', [MailController::class, 'getMail']);
 
-Route::get('/l', function () {
-    return view('blog.registro');
-})->name('registro');
+Route::post('/', [RegisterController::class, 'guardar'])->name('registro.guardar');
 
-Route::get('/login', function () {
-    return view('blog.login');
-})->name('login');
+Route::post('/login', [SessionController::class, 'ingresar'])->name('login.ingresar');
+
+Route::get('/', [RegisterController::class, 'create'])->name('registro');
+
+Route::get('/login', [SessionController::class, 'create'])->name('login');
 
 Route::get('/inicio', function () {
     return view('blog.index');

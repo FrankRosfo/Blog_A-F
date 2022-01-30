@@ -1,21 +1,10 @@
 @extends('blog.template.fondo')
-@section('Barra')
-<li class="nav-item">
-  <a class="nav-link" href="/inicio">Inicio</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="blog">Blog</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="contacto">Contacto</a>
-</li>
-<li class="nav-item active">
-  <a class="nav-link" href="login">Iniciar Secion
-    <span class="sr-only">(current)</span>
-  </a>
-</li>
+@section('Logotipo')
+@yield('Logotipo2')
 @endsection
-
+@section('Barra')
+@yield('Barra2')
+@endsection
 @section('Contenido')
 <!-- Page Content -->
 <!-- Banner Starts Here -->
@@ -25,8 +14,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-content">
-            <h4>Login</h4>
-            <h2>¡Bienvenido!</h2>
+            @yield('Descript')
           </div>
         </div>
       </div>

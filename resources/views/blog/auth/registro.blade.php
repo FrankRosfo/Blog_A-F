@@ -1,11 +1,29 @@
 @extends('blog.template.sesion')
+@section('Logotipo2')
+<a class="navbar-brand" href="/" ><h2>Blog A/F<em>.</em></h2></a>
+@endsection
+@section('Barra2')
+<li class="nav-item">
+  <a class="nav-link" href="login">Iniciar Secion</a>
+</li>
+@endsection
+@section('Descript')
+<h4>Registro</h4>
+<h2>¡Bienvenido!</h2>
+@endsection
 @section('Form')
 <div class="sidebar-heading">
     <h2>Registro "NO INGRESAR SU CONTRASEÑA REAL NO NOS HACEMOS RESPONSABLES"</h2>
 </div>
 <div class="content">
-    <form action="" method="post">
+    <form action="/" method="post">
+        @csrf
         <div class="row">
+            <div class="col-sm-12">
+                <fieldset>
+                    <input name="name" type="text" id="name" placeholder="Nombre" required="">
+                </fieldset>
+            </div>
             <div class="col-sm-12">
                 <fieldset>
                     <input name="email" type="text" id="email" placeholder="Correo" required="">
@@ -23,7 +41,7 @@
             </div>
             <div class="col-lg-12">
                 <fieldset>
-                    <button type="submit" id="form-submit" class="main-button">Registrar</button>
+                    <button type="submit" id="form-submit" class="main-button">Registrarse</button>
                 </fieldset>
             </div>
         </div>

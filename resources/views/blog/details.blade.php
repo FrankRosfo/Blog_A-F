@@ -15,7 +15,7 @@
   <a class="nav-link" href="contacto">Contacto</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="login">Iniciar Secion</a>
+  <a class="nav-link" href="login">Cerrar Secion</a>
 </li>
 @endsection
 @section('Contenido')
