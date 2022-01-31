@@ -134,8 +134,8 @@
                       <div class="col-6">
                         <ul class="post-share">
                           <li><i class="fa fa-share-alt"></i></li>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Instagram</a></li>
+                          <li><a href="https://www.facebook.com/profile.php?id=100064101466027">Facebook</a>,</li>
+                          <li><a href="https://instagram.com/frankrosfo?utm_medium=copy_link">Instagram</a></li>
                         </ul>
                       </div>
                     </div>
@@ -164,8 +164,8 @@
                       <div class="col-6">
                         <ul class="post-share">
                           <li><i class="fa fa-share-alt"></i></li>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Instagram</a></li>
+                          <li><a href="https://www.facebook.com/profile.php?id=100064101466027">Facebook</a>,</li>
+                          <li><a href="https://instagram.com/frankrosfo?utm_medium=copy_link">Instagram</a></li>
                         </ul>
                       </div>
                     </div>
@@ -194,8 +194,8 @@
                       <div class="col-6">
                         <ul class="post-share">
                           <li><i class="fa fa-share-alt"></i></li>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Instagram</a></li>
+                          <li><a href="https://www.facebook.com/profile.php?id=100064101466027">Facebook</a>,</li>
+                          <li><a href="https://instagram.com/frankrosfo?utm_medium=copy_link">Instagram</a></li>
                         </ul>
                       </div>
                     </div>

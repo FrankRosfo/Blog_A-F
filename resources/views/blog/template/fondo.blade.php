@@ -63,7 +63,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="col-lg-12">
                     <ul class="social-icons">
                         <li><a href="https://www.facebook.com/profile.php?id=100064101466027">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
+                        <li><a href="https://mobile.twitter.com/arlc29">Twitter</a></li>
                         <li><a href="https://instagram.com/frankrosfo?utm_medium=copy_link">Instagram</a></li>
                     </ul>
                 </div>

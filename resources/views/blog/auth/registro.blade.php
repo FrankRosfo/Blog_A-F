@@ -13,7 +13,7 @@
 @endsection
 @section('Form')
 <div class="sidebar-heading">
-    <h2>Registro "NO INGRESAR SU CONTRASEÑA REAL NO NOS HACEMOS RESPONSABLES"</h2>
+    <h2>Registro"</h2>
 </div>
 <div class="content">
     <form action="/" method="post">

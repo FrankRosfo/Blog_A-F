@@ -44,10 +44,5 @@
         </div>
     </form>
 </div>
-<style type="text/css">
-    h1
-    {
-        color: red;
-    }
 </style>
 @endsection
