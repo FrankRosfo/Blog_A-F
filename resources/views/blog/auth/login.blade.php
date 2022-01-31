@@ -16,7 +16,7 @@
     <h2>Login</h2>
 </div>
 <div class="content">
-    <form action="inicio" method="post">
+    <form action="login" method="post">
         @csrf
         <div class="row">
             <div class="col-sm-12">
@@ -32,7 +32,7 @@
             @error('message')
             <div class="col-sm-12">
                 <fieldset>
-                    <h4>*Error</h4>
+                    <h4>*{{$message}}</h4>
                 </fieldset>
             </div>
             @enderror

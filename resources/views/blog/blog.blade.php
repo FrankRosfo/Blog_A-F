@@ -12,7 +12,7 @@
   <a class="nav-link" href="contacto">Contacto</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="login">Cerrar Secion</a>
+  <a class="nav-link" href="logout">Cerrar Secion</a>
 </li>
 @endsection
 
@@ -26,7 +26,7 @@
         <div class="col-lg-12">
           <div class="text-content">
             <h4>Blog</h4>
-            <h2>Recientes Posts</h2>
+            <h2>Posts Recientes</h2>
           </div>
         </div>
       </div>
@@ -43,17 +43,12 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-01.jpg" alt="">
+                  <img src="assets/images/Image1.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Donec tincidunt leo</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 31, 2020</a></li>
-                    <li><a href="#">12 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Conceptos</span>
+                  <a href="1_sistemas"><h4>Sistemas de Información</h4></a>
+                  <p>Un sistema de información es un conjunto de datos que interactúan entre sí con un fin común.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
@@ -71,17 +66,12 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-02.jpg" alt="">
+                  <img src="assets/images/Image2.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Suspendisse et metus</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 22, 2020</a></li>
-                    <li><a href="#">26 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Evolución</span>
+                  <a href="2_sistemas"><h4>Sistemas de Información</h4></a>
+                  <p>El papel de SI fue principalmente para realizar actividades como el procesamiento de transacciones.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
@@ -99,17 +89,12 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-03.jpg" alt="">
+                  <img src="assets/images/Image3.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Donec tincidunt leo</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 18, 2020</a></li>
-                    <li><a href="#">42 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Conceptos</span>
+                  <a href="3_sistemas"><h4>Cliente-Servidor</h4></a>
+                  <p>Se tiene una máquina cliente que requiere un servicio de una máquina servidor.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
@@ -127,17 +112,12 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-04.jpg" alt="">
+                  <img src="assets/images/Image4.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Mauris ac dolor ornare</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 16, 2020</a></li>
-                    <li><a href="#">28 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Sistemas</span>
+                  <a href="4_sistemas"><h4>Computadoras Centrales y Dedicadas</h4></a>
+                  <p>El término apareció a principios de los años 70’s con la introducción de ordenadores más pequeños como la serie DEC PDP.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
@@ -155,17 +135,12 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-05.jpg" alt="">
+                  <img src="assets/images/Image5.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Donec tincidunt leo</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 12, 2020</a></li>
-                    <li><a href="#">16 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Sistemas</span>
+                  <a href="5_sistemas"><h4>Conexión Libre y Atravez de Redes</h4></a>
+                  <p>Esta es la era que esta basada en el concepto de redes de computadoras en la que la información reside en una o varias computadoras.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
@@ -183,17 +158,81 @@
             <div class="col-lg-6">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-thumb-06.jpg" alt="">
+                  <img src="assets/images/Image6.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Lifestyle</span>
-                  <a href="post-details.html"><h4>Mauris ac dolor ornare</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 10, 2020</a></li>
-                    <li><a href="#">3 Comments</a></li>
-                  </ul>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
+                  <span>Sistemas</span>
+                  <a href="6_sistemas"><h4>Arquitectura Cliente-Servidor</h4></a>
+                  <p>La computadora de cada uno de los usuarios, llamada cliente, produce una demanda de información a cualquiera de las computadoras que proporcionan información.</p>
+                  <div class="post-options">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <ul class="post-tags">
+                          <li><i class="fa fa-tags"></i></li>
+                          <li><a href="#">UPT</a>,</li>
+                          <li><a href="#">Tecámac</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="blog-post">
+                <div class="blog-thumb">
+                  <img src="assets/images/Image7.jpg" alt="">
+                </div>
+                <div class="down-content">
+                  <span>Protocolos</span>
+                  <a href="7_sistemas"><h4>Comunicación Red</h4></a>
+                  <p>La arquitectura de red es el diseño de una red de comunicaciones. Es un marco para la especificación de los componentes físicos de una red.</p>
+                  <div class="post-options">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <ul class="post-tags">
+                          <li><i class="fa fa-tags"></i></li>
+                          <li><a href="#">UPT</a>,</li>
+                          <li><a href="#">Tecámac</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="blog-post">
+                <div class="blog-thumb">
+                  <img src="assets/images/Image8.jpg" alt="">
+                </div>
+                <div class="down-content">
+                  <span>Sistemas de información</span>
+                  <a href="8_sistemas"><h4>Deacuerdo a su arquitectura</h4></a>
+                  <p>Los sistemas de información, de manera general se pueden clasificar de tres formas según sus propósitos generales.</p>
+                  <div class="post-options">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <ul class="post-tags">
+                          <li><i class="fa fa-tags"></i></li>
+                          <li><a href="#">UPT</a>,</li>
+                          <li><a href="#">Tecámac</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="blog-post">
+                <div class="blog-thumb">
+                  <img src="assets/images/Image9.jpg" alt="">
+                </div>
+                <div class="down-content">
+                  <span>Proceso de diagramación</span>
+                  <a href="post-details.html"><h4>Arquitectura Cliente-Servidor</h4></a>
+                  <p>Combinación de un cliente que interactúa con el usuario, y un servidor que interactúa con los recursos a compartir.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">

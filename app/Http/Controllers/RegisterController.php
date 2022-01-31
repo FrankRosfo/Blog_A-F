@@ -13,8 +13,8 @@ class RegisterController extends Controller
 
     public function guardar(){
         $user = User::create(request(['name', 'email', 'password']));
-            auth()->login($user);
-            return redirect()->to('login');
+        auth()->login($user);
+        return redirect()->to('login');
         
     }
 }

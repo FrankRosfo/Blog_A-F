@@ -21,6 +21,6 @@ class SessionController extends Controller
     }
     public function destroy(){
         auth()->logout();
-        return redirect()->to('registro');
+        return redirect()->to('login');
     }
 }

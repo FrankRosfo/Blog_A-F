@@ -15,107 +15,90 @@
   <a class="nav-link" href="contacto">Contacto</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="login">Cerrar Secion</a>
+  <a class="nav-link" href="logout">Cerrar Secion</a>
 </li>
 @endsection
 @section('Contenido')
+@if(auth()->check())
 <!-- Page Content -->
 <!-- Banner Starts Here -->
 <div class="main-banner header-text">
   <div class="container-fluid">
     <div class="owl-banner owl-carousel">
       <div class="item">
-        <img src="assets/images/banner-item-01.jpg" alt="">
+        <img src="assets/images/Image1.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Conceptos</span>
             </div>
-            <a href="post-details.html"><h4>Sistemas de información</h4></a>
+            <a href="1_sistemas"><h4>Sistemas de información</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 12, 2020</a></li>
-              <li><a href="#">12 Comments</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/banner-item-02.jpg" alt="">
+        <img src="assets/images/Image2.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Evolución</span>
             </div>
-            <a href="post-details.html"><h4>Sistemas de información</h4></a>
+            <a href="2_sistemas"><h4>Sistemas de información</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 14, 2020</a></li>
-              <li><a href="#">24 Comments</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/banner-item-03.jpg" alt="">
+        <img src="assets/images/Image3.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Conceptos</span>
             </div>
-            <a href="post-details.html"><h4>Cliente-Servidor</h4></a>
+            <a href="3_sistemas"><h4>Cliente-Servidor</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 16, 2020</a></li>
-              <li><a href="#">36 Comments</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/banner-item-04.jpg" alt="">
+        <img src="assets/images/Image4.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Sistemas</span>
             </div>
-            <a href="post-details.html"><h4>Computadoras Centrales y Dedicadas</h4></a>
+            <a href="4_sistemas"><h4>Computadoras Centrales y Dedicadas</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 18, 2020</a></li>
-              <li><a href="#">48 Comments</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/banner-item-05.jpg" alt="">
+        <img src="assets/images/Image5.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Sistemas</span>
             </div>
-            <a href="post-details.html"><h4>Conexion Libre y atravez de Redes</h4></a>
+            <a href="5_sistemas"><h4>Conexion Libre y atravez de Redes</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 24, 2020</a></li>
-              <li><a href="#">64 Comments</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/banner-item-06.jpg" alt="">
+        <img src="assets/images/Image6.jpg" alt="">
         <div class="item-content">
           <div class="main-content">
             <div class="meta-category">
               <span>Sistemas</span>
             </div>
-            <a href="post-details.html"><h4>Arquitectura Cliente-Servidor</h4></a>
+            <a href="6_sistemas"><h4>Arquitectura Cliente-Servidor</h4></a>
             <ul class="post-info">
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">May 26, 2020</a></li>
-              <li><a href="#">72 Comments</a></li>
             </ul>
           </div>
         </div>
@@ -133,24 +116,19 @@
             <div class="col-lg-12">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-post-01.jpg" alt="">
+                  <img src="assets/images/Image1.jpg" alt="">
                 </div>
                 <div class="down-content">
                   <span>Conceptos</span>
-                  <a href="post-details.html"><h4>Sistemas de Información</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 31, 2020</a></li>
-                    <li><a href="#">12 Comments</a></li>
-                  </ul>
-                  <p>Stand Blog is a free HTML CSS template for your CMS theme. You can easily adapt or customize it for any kind of CMS or website builder. You are allowed to use it for your business. You are NOT allowed to re-distribute the template ZIP file on any template collection site for the download purpose. <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">Contact TemplateMo</a> for more info. Thank you.</p>
+                  <a href="1_sistemas"><h4>Sistemas de Información</h4></a>
+                  <p>Un sistema de información es un conjunto de datos que interactúan entre sí con un fin común. La importancia de un sistema de información radica en la eficiencia en la correlación de una gran cantidad de datos ingresados a través de procesos diseñados para cada área con el objetivo de producir información válida para la posterior toma de decisiones.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-6">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
-                          <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a>UPT</a>,</li>
+                          <li><a>Tecámac</a></li>
                         </ul>
                       </div>
                       <div class="col-6">
@@ -168,24 +146,19 @@
             <div class="col-lg-12">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-post-02.jpg" alt="">
+                  <img src="assets/images/Image2.jpg" alt="">
                 </div>
                 <div class="down-content">
                   <span>Evolución</span>
-                  <a href="post-details.html"><h4>Sistemas de información</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 24, 2020</a></li>
-                    <li><a href="#">36 Comments</a></li>
-                  </ul>
-                  <p>You can support us by contributing a little via PayPal. Please contact <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">TemplateMo</a> via Live Chat or Email. If you have any question or feedback about this template, feel free to talk to us. Also, you may check other CSS templates such as <a rel="nofollow" href="https://templatemo.com/tag/multi-page" target="_parent">multi-page</a>, <a rel="nofollow" href="https://templatemo.com/tag/resume" target="_parent">resume</a>, <a rel="nofollow" href="https://templatemo.com/tag/video" target="_parent">video</a>, etc.</p>
+                  <a href="2_sistemas"><h4>Sistemas de información</h4></a>
+                  <p>1950 - 1960: procesamiento de datos electrónicos, sistema de procesamiento de transacciones. Durante este período, el papel de SI fue principalmente para realizar actividades como el procesamiento de transacciones, el mantenimiento de registros y la contabilidad. SI se utilizó principalmente para el procesamiento electrónico de datos.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-6">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
-                          <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a>UPT</a>,</li>
+                          <li><a>Tecámac</a></li>
                         </ul>
                       </div>
                       <div class="col-6">
@@ -203,24 +176,19 @@
             <div class="col-lg-12">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="assets/images/blog-post-03.jpg" alt="">
+                  <img src="assets/images/Image3.jpg" alt="">
                 </div>
                 <div class="down-content">
                   <span>Conceptos</span>
-                  <a href="post-details.html"><h4>Cliente-Servidor</h4></a>
-                  <ul class="post-info">
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">May 14, 2020</a></li>
-                    <li><a href="#">48 Comments</a></li>
-                  </ul>
-                  <p>Nullam at quam ut lacus aliquam tempor vel sed ipsum. Donec pellentesque tincidunt imperdiet. Mauris sit amet justo vulputate, cursus massa congue, vestibulum odio. Aenean elit nunc, gravida in erat sit amet, feugiat viverra leo. Phasellus interdum, diam commodo egestas rhoncus, turpis nisi consectetur nibh, in vehicula eros orci vel neque.</p>
+                  <a href="3_sistemas"><h4>Cliente-Servidor</h4></a>
+                  <p>Empezó a ser aceptado a finales de los años 80’ para referirse a las PC’s en red.<br>Su funcionamiento es de la siguiente manera, se tiene una máquina cliente que requiere un servicio de una máquina servidor, y éste realiza la función para la que está programado.Desde el punto de vista funcional, es una arquitectura distribuida que permite a los usuarios finales obtener acceso a la información aún en los entornos multiplataforma.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-6">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
-                          <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a>UPT</a>,</li>
+                          <li><a>Tecámac</a></li>
                         </ul>
                       </div>
                       <div class="col-6">
@@ -309,4 +277,5 @@
     </div>
   </div>
 </section>
+@endif
 @endsection
