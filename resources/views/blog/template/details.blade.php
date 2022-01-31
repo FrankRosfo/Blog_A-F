@@ -140,29 +140,6 @@ https://templatemo.com/tm-551-stand-blog
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12">
-                  <div class="sidebar-item submit-comment">
-                    <div class="sidebar-heading">
-                      <h2>Escribe tu comentario</h2>
-                    </div>
-                    <div class="content">
-                      <form id="comment" action="#" method="post">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <fieldset>
-                              <textarea name="message" rows="6" id="message" placeholder="Comentario" required=""></textarea>
-                            </fieldset>
-                          </div>
-                          <div class="col-lg-12">
-                            <fieldset>
-                              <button type="submit" id="form-submit" class="main-button">Enviar</button>
-                            </fieldset>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
