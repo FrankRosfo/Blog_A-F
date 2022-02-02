@@ -8,6 +8,7 @@
 </p>
 
 Link:https://blog-af.herokuapp.com/
+Integrantes: Francisco Javier Rosales Sánchez y Arlet Esmeralda Castro Rodríguez
 
 ## About Laravel
 
