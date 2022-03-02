@@ -1,4 +1,4 @@
-@extends('blog.template.sesion')
+@extends('blog.template.sesion') {{-- HOME SESION --}}
 @section('Logotipo2')
 <a class="navbar-brand" href="/" ><h2>Blog A/F<em>.</em></h2></a>
 @endsection
@@ -13,7 +13,7 @@
 @endsection
 @section('Form')
 <div class="sidebar-heading">
-    <h2>Registro"</h2>
+    <h2>Registro</h2>
 </div>
 <div class="content">
     <form action="/" method="post">
