@@ -12,7 +12,7 @@
   <a class="nav-link" href="contacto">Contacto</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="logout">Cerrar Secion</a>
+  <a class="nav-link" href="logout">Cerrar Sesi&oacute;n</a>
 </li>
 @endsection
 
@@ -47,15 +47,15 @@
                 </div>
                 <div class="down-content">
                   <span>Conceptos</span>
-                  <a href="1_sistemas"><h4>Sistemas de Información</h4></a>
-                  <p>Un sistema de información es un conjunto de datos que interactúan entre sí con un fin común.</p>
+                  <a href="1_sistemas"><h4>Sistemas de Informaci&oacute;n</h4></a>
+                  <p>Un sistema de informaci&oacute;n es un conjunto de datos que interactúan entre s&iacute; con un fin com&uacute;n.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="down-content">
                   <span>Evolución</span>
-                  <a href="2_sistemas"><h4>Sistemas de Información</h4></a>
+                  <a href="2_sistemas"><h4>Sistemas de Informaci&oacute;n</h4></a>
                   <p>El papel de SI fue principalmente para realizar actividades como el procesamiento de transacciones.</p>
                   <div class="post-options">
                     <div class="row">
@@ -78,7 +78,7 @@
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -94,14 +94,14 @@
                 <div class="down-content">
                   <span>Conceptos</span>
                   <a href="3_sistemas"><h4>Cliente-Servidor</h4></a>
-                  <p>Se tiene una máquina cliente que requiere un servicio de una máquina servidor.</p>
+                  <p>Se tiene una m&aacute;quina cliente que requiere un servicio de una m&aacute;quina servidor.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&sacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -117,14 +117,15 @@
                 <div class="down-content">
                   <span>Sistemas</span>
                   <a href="4_sistemas"><h4>Computadoras Centrales y Dedicadas</h4></a>
-                  <p>El término apareció a principios de los años 70’s con la introducción de ordenadores más pequeños como la serie DEC PDP.</p>
+                  <p>El t&eacute;rmino apareci&oacute; a principios de los años 70’s con la introducci&oacute;n de
+                      ordenadores m&aacute;s pequeños como la serie DEC PDP.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -139,15 +140,16 @@
                 </div>
                 <div class="down-content">
                   <span>Sistemas</span>
-                  <a href="5_sistemas"><h4>Conexión Libre y Atravez de Redes</h4></a>
-                  <p>Esta es la era que esta basada en el concepto de redes de computadoras en la que la información reside en una o varias computadoras.</p>
+                  <a href="5_sistemas"><h4>Conexi&oacute;n Libre y Atravez de Redes</h4></a>
+                  <p>Esta es la era que esta basada en el concepto de redes de computadoras en la que la
+                      informaci&oacute;n reside en una o varias computadoras.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -163,14 +165,15 @@
                 <div class="down-content">
                   <span>Sistemas</span>
                   <a href="6_sistemas"><h4>Arquitectura Cliente-Servidor</h4></a>
-                  <p>La computadora de cada uno de los usuarios, llamada cliente, produce una demanda de información a cualquiera de las computadoras que proporcionan información.</p>
+                  <p>La computadora de cada uno de los usuarios, llamada cliente, produce una demanda de
+                      informaci&oacute;n a cualquiera de las computadoras que proporcionan informaci&oacute;n.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -185,15 +188,16 @@
                 </div>
                 <div class="down-content">
                   <span>Protocolos</span>
-                  <a href="7_sistemas"><h4>Comunicación Red</h4></a>
-                  <p>La arquitectura de red es el diseño de una red de comunicaciones. Es un marco para la especificación de los componentes físicos de una red.</p>
+                  <a href="7_sistemas"><h4>Comunicaci&oacute;n Red</h4></a>
+                  <p>La arquitectura de red es el diseño de una red de comunicaciones. Es un marco para la
+                      especificaci&oacute;n de los componentes f&iacute;sicos de una red.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -207,16 +211,17 @@
                   <img src="assets/images/Image8.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Sistemas de información</span>
+                  <span>Sistemas de informaci&oacute;n</span>
                   <a href="8_sistemas"><h4>Deacuerdo a su arquitectura</h4></a>
-                  <p>Los sistemas de información, de manera general se pueden clasificar de tres formas según sus propósitos generales.</p>
+                  <p>Los sistemas de informaci&oacute;n, de manera general se pueden clasificar de tres formas
+                      seg&oacute;n sus prop&oacute;sitos generales.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -230,16 +235,17 @@
                   <img src="assets/images/Image9.jpg" alt="">
                 </div>
                 <div class="down-content">
-                  <span>Proceso de diagramación</span>
+                  <span>Proceso de diagramaci&oacute;n</span>
                   <a href="post-details.html"><h4>Arquitectura Cliente-Servidor</h4></a>
-                  <p>Combinación de un cliente que interactúa con el usuario, y un servidor que interactúa con los recursos a compartir.</p>
+                  <p>Combinaci&oacute;n de un cliente que interact&uacute;a con el usuario, y un servidor que interact&uacute;a con los
+                      recursos a compartir.</p>
                   <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a href="#">UPT</a>,</li>
-                          <li><a href="#">Tecámac</a></li>
+                          <li><a href="#">Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                     </div>
@@ -256,7 +262,7 @@
             <div class="col-lg-12">
               <div class="sidebar-item recent-posts">
                 <div class="sidebar-heading">
-                  <h2>Ultimos Comentarios</h2>
+                  <h2>&Uacute;ltimos Comentarios</h2>
                 </div>
                 <div class="content">
                   <ul>

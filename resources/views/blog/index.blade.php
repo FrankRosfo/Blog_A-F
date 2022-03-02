@@ -196,7 +196,7 @@
                         <ul class="post-tags">
                           <li><i class="fa fa-tags"></i></li>
                           <li><a>UPT</a>,</li>
-                          <li><a>Tecámac</a></li>
+                          <li><a>Tec&aacute;mac</a></li>
                         </ul>
                       </div>
                       <div class="col-6">
@@ -213,7 +213,7 @@
             </div>
             <div class="col-lg-12">
               <div class="main-button">
-                <a href="blog">Ver más Posts</a>
+                <a href="blog">Ver m&aacute;s Posts</a>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@
                   <ul>
                     <li><a href="#">- Hobbies/F</a></li>
                     <li><a href="#">- Uso Orientado a Objetos</a></li>
-                    <li><a href="#">- Juego Clasico</a></li>
+                    <li><a href="#">- Juego Cl&aacute;sicos</a></li>
                     <li><a href="#">- QSMN/F</a></li>
                     <li><a href="#">- Batalla Naval</a></li>
                   </ul>
@@ -264,7 +264,7 @@
             <div class="col-lg-12">
               <div class="sidebar-item tags">
                 <div class="sidebar-heading">
-                  <h2>Lenguajes de Programación</h2>
+                  <h2>Lenguajes de Programaci&oacute;n</h2>
                 </div>
                 <div class="content">
                   <ul>

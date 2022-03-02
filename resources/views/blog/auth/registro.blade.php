@@ -4,7 +4,7 @@
 @endsection
 @section('Barra2')
 <li class="nav-item">
-  <a class="nav-link" href="login">Iniciar Secion</a>
+  <a class="nav-link" href="login">Iniciar Sesi&oacute;n</a>
 </li>
 @endsection
 @section('Descript')
