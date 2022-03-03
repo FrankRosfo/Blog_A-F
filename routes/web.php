@@ -39,9 +39,9 @@ Route::get('/blog', function () {
     return view('blog.blog');
 })->middleware('auth')->name('blog');
 
-Route::get('/1_sistemas', function () {
-    return view('blog.1_sistemas');
-})->middleware('auth')->name('1_sistemas');
+Route::get('/detalles', function () {
+    return view('blog.details');
+})->middleware('auth')->name('Detalles');
 
 Route::get('/2_sistemas', function () {
     return view('blog.2_sistemas');
