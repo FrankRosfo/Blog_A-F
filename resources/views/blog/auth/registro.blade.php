@@ -26,12 +26,12 @@
             </div>
             <div class="col-sm-12">
                 <fieldset>
-                    <input name="email" type="text" id="email" placeholder="Correo" required="">
+                    <input name="email" type="email" id="email" placeholder="Correo" required="">
                 </fieldset>
             </div>
             <div class="col-sm-12">
                 <fieldset>
-                    <input name="password" type="text" id="password" placeholder="Contraseña" required="">
+                    <input name="password" type="password" id="password" placeholder="Contraseña" required="">
                 </fieldset>
             </div>
             <div class="col-lg-12">
@@ -42,4 +42,18 @@
         </div>
     </form>
 </div>
+@endsection
+@section('Js2')
+
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script>
+    function mostrarContrasena(){
+        var tipo = document.getElementById("password");
+        if(tipo.type == "password"){
+            tipo.type = "text";
+        }else{
+            tipo.type = "password";
+        }
+    }
+</script>
 @endsection

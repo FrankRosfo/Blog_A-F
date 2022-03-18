@@ -36,5 +36,7 @@
     </div>
   </div>
 </section>
-
+@endsection
+@section('Js')
+@yield('Js2');
 @endsection

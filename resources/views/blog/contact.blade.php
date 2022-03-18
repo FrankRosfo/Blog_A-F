@@ -51,16 +51,6 @@
                   <form action="/mail" method="post">
                     @csrf
                     <div class="row">
-                      <div class="col-md-6 col-sm-12">
-                        <fieldset>
-                          <input name="name" type="text" id="name" placeholder="Nombre" required="">
-                        </fieldset>
-                      </div>
-                      <div class="col-md-6 col-sm-12">
-                        <fieldset>
-                          <input name="email" type="text" id="email" placeholder="Correo" required="">
-                        </fieldset>
-                      </div>
                       <div class="col-lg-12">
                         <fieldset>
                           <textarea name="message" rows="6" id="message" placeholder="Mensaje" required=""></textarea>

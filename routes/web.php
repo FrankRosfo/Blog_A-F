@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionController;
+use App\Http\Controllers\ComentariosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +28,10 @@ Route::get('/login', [SessionController::class, 'create'])->middleware('guest')-
 
 Route::get('/logout', [SessionController::class, 'destroy'])->middleware('auth')->name('login.destroy');
 
+Route::get('/blog', [ComentariosController::class, 'blog'])->middleware('auth')->name('blog');
+
+Route::post('/blog', [ComentariosController::class, 'comentarios'])->middleware('auth');
+
 Route::get('/inicio', function () {
     return view('blog.index');
 })->middleware('auth')->name('inicio');
@@ -34,10 +39,6 @@ Route::get('/inicio', function () {
 Route::get('/contacto', function () {
     return view('blog.contact');
 })->middleware('auth')->name('contacto');
-
-Route::get('/blog', function () {
-    return view('blog.blog');
-})->middleware('auth')->name('blog');
 
 Route::get('/1_sistemas', function () {
     return view('blog.1_sistemas');

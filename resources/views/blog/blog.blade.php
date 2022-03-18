@@ -20,6 +20,7 @@
 @endsection
 
 @section('Contenido')
+@if(auth()->check())
 <!-- Page Content -->
 <!-- Banner Starts Here -->
 <div class="heading-page header-text">
@@ -256,9 +257,56 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-12">
+              <div class="sidebar-item comments">
+                <div class="sidebar-heading" id="coments">
+                  <h2>{{ $coments }} comentarios</h2>
+                </div>
+                <div class="content">
+                  <ul>
+                    @foreach($comentarios as $comentario)
+                    <li>
+                      <div class="author-thumb">
+                        <img src="assets/images/Usuario.jpg" alt="">
+                      </div>
+                      <div class="right-content">
+                        <h4>{{ $comentario['Nombre'] }}<span>{{ $comentario['Fecha'] }}</span></h4>
+                        <p>{{ $comentario['Comentario'] }}</p>
+                      </div>
+                    </li>
+                    @endforeach
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="sidebar-item submit-comment">
+                <div class="sidebar-heading">
+                  <h2>Escribe tu Comentario</h2>
+                </div>
+                <div class="content">
+                  <form id="comment" action="/blog" method="post">
+                    @csrf
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <textarea name="message" rows="6" id="message" placeholder="Comentario" required=""></textarea>
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <button type="submit" id="comentar-button" class="main-button">Comentar</button>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
       <div class="col-lg-4">
         <div class="sidebar">
           <div class="row">
@@ -325,4 +373,5 @@
     </div>
   </div>
 </section>
+@endif
 @endsection
